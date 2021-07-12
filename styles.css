@@ -440,6 +440,7 @@ a:hover{
 .testimonyJob {
     color: #d2d0db;
     font-size: 13px;
+    text-align: start;
     margin: 0  ;
 }
 .testimonyName {
