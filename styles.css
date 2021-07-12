@@ -538,22 +538,21 @@ a:hover{
     font-family: "Inter",sans-serif;
     font-size: 18px;
     background-color: #1b1650;
-    padding: 90px 0px 50px;
+    padding: 90px 0 30px 60px;
     color:white;
     font-weight: 200;
     width:100%;
     display: block;
-    padding-left: 50px;
     box-sizing: border-box;
-    
 }
 @media only screen and (min-width:768px){
     .footer{
+        padding: 90px 60px 30px 60px;
         display:flex;
         flex-wrap: nowrap;
-        justify-content: space-evenly;
-        justify-items: center;
-        
+        justify-content: space-between;
+        justify-items: flex-start;
+        align-items: flex-start;
     }
 }
 
